@@ -5,28 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Léna</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Discussion</title>
 </head>
 
 <body>
-    <h1 align="center" color="magenta">Triste et déçue</h1>
-    <p>La semaine dernière j'ai eu 30 ans. Et depuis je me sens triste et déçue. Pourtant c'était une fete très joyeuse... </p>
-    <img src="images/cake.jpeg" alt="Mes Gateaux d'anniversaire" height="300" align="center">
-    <p>Pourquoi suis-je triste alors?</p>
-    <ul>
-        <li> Peut etre parce que je me sens vieille ?</li>
-        <li> Ou j'ai peut etre peur de la viellesse ?</li>
-        <li> Ou de la MORT ? :o </li>
-        <li> Je suis probablement juste fatiguée. J'ai pas trop dormi la semaine dernière parce que j'avais trop de choses à préparer. Et en plus j'étais stressée..</li>
-        <li> Est ce que c'est du stress alors et pas de la tristesse ?</li>
-        <li> Ah mais c'est peut etre parce que j'ai très envie de passer Noel au
-            <a href=" http://www.liban.fr/" target="_blank">Liban</a>, et je ne suis pas sure de pouvoir y aller :( </li>
-        <li> Ou parce que les très belles fleures que j'ai reçues pour mon anniversaire sont déjà mortes :'(</li>
-    </ul>
-    <img src="images/fleurs.jpeg" alt="Mes fleurs préférées :''(" height="200">
+    <h1>Triste et déçue</h1>
+    <div class="container1">
+        <p>La semaine dernière j'ai eu 30 ans. Et depuis je me sens triste et déçue. Pourtant c 'était une fete très joyeuse... </p>
+        <img id="imgCake" src="images/cake.jpeg" alt="Mes Gateaux d'anniversaire ">
+    </div>
+    <p>Pourquoi je suis triste alors?</p>
+    <div class="container2">
+
+        <ul>
+            <li> Peut etre parce que je me sens vieille ?</li>
+            <li> Ou j'ai peut etre peur de la viellesse ?</li>
+            <li> Ou de la mort? </li>
+            <li> Je suis probablement juste fatiguée. J'ai pas trop dormi la semaine dernière parce que j'avais trop de choses à préparer. Et en plus j'étais stressée..</li>
+            <li> Est ce que c'est du stress alors et pas de la tristesse ?</li>
+            <li> Ah mais c'est peut etre parce que j'ai très envie de passer Noel au
+                <a href=" http://www.liban.fr/ " target="_blank ">Liban</a>, et je ne suis pas sure de pouvoir y aller :( </li>
+            <li> Ou parce que les très belles fleures que j'ai reçues pour mon anniversaire sont déjà mortes :'(</li>
+        </ul>
+        <img src="images/fleurs.jpeg " alt="Mes fleurs préférées : ''( " height="200 ">
+    </div>
     <p>Et toi? Est ce que tu es triste ?</p>
-    <input type="radio" name="tristeOuPas " value=" Oui "> Oui très triste et décu(e)
-    <input type="radio" name="tristeOuPas " value=" NON "> Mais non je ne suis pas triste moi
+    <input type="radio " name="tristeOuPas " value=" Oui "> Oui très triste et décu(e)
+    <input type="radio " name="tristeOuPas " value=" NON "> Mais non je ne suis pas triste moi
     <p>Mais alors est ce que tu sais pourquoi moi je suis triste ??</p>
     <select name="tuSaisOuPas ">
         <option value="Non1 ">Non, je te connais meme pas</option>
@@ -40,21 +46,21 @@
     <form>
         <div>
             <label>Ton prénom:</label>
-            <input type="text" name="prenom" id="prenom">
+            <input type="text " name="prenom " id="prenom ">
 
             <label>Ton nom:</label>
-            <input type="text" name="nom" id="nom">
+            <input type="text " name="nom " id="nom ">
         </div>
         <div>
             <label>Ta date de naissance:</label>
-            <input type="date" name="date" id="date">
+            <input type="date " name="date " id="date ">
         </div>
         <div>
             <label>Un thème joyeux:</label>
-            <textarea type="text" class="input" placeholder=":)"></textarea>
+            <textarea type="text " class="input " placeholder=":) "></textarea>
         </div>
 
-        <input type="submit" value="Commencons la discussion">
+        <input type="submit " value="Commencons la discussion ">
 
 
     </form>
