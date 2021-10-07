@@ -38,8 +38,8 @@
     <p>Mais alors est ce que tu sais pourquoi moi je suis triste ??</p>
 
     <div class="container3">
-        <select name="tuSaisOuPas ">
-            <option value="Non1 ">Non, je ne te connais meme pas</option>
+        <select name="tuSaisOuPas" id="select">
+            <option value=" Non1 ">Non, je ne te connais meme pas</option>
             <option value="Non2 ">Désolée je ne sais pas...</option>
             <option value="Oui1 ">Oui je sais mais tu le sais aussi</option>
             <option value="Oui2 ">Oui c'est parce que tu es née triste et décue</option>
@@ -47,28 +47,30 @@
     </div>
 
     <p>Si tu veux on peut parler de choses joyeuses. Pourrais tu me proposer un thème joyeux ?</p>
+    <div id="formcontainerdiv ">
+        <form class="container4 ">
+            <div class="formdiv ">
+                <label>Ton prénom:</label>
+                <input type="text " name="prenom " id="prenom ">
+            </div>
+            <div class="formdiv ">
+                <label>Ton nom:</label>
+                <input type="text " name="nom " id="nom ">
+            </div>
+            <div class="formdiv " id="ddnDiv ">
+                <label>Ta date de naissance:</label>
+                <input type="date " name="date " id="date ">
+            </div>
+            <div id="textareacontainer ">
+                <label>Un thème joyeux:</label>
+                <textarea type="text " class="input " placeholder=":) "></textarea>
+            </div>
+            <!--<a href="./Pages/ThemeJoyeux.html " class="button ">Commencons la discussion!</a>
+            <button class="button " type="submit ">Commencons la discussion!</button>-->
+            <button type="button " class="button "><a href="./Pages/ThemeJoyeux.html " >Commencons la discussion!</a></button>
+        </form>
 
-    <form class="container4">
-        <div class="formdiv">
-            <label>Ton prénom:</label>
-            <input type="text" name="prenom" id="prenom ">
-        </div>
-        <div class="formdiv">
-            <label>Ton nom:</label>
-            <input type="text" name="nom" id="nom ">
-        </div>
-        <div class="formdiv" id="ddnDiv">
-            <label>Ta date de naissance:</label>
-            <input type="date" name="date" id="date ">
-        </div>
-        <div id="textareacontainer">
-            <label>Un thème joyeux:</label>
-            <textarea type="text" class="input" placeholder=":) "></textarea>
-        </div>
-        <!--<a href="./Pages/ThemeJoyeux.html" class="button">Commencons la discussion!</a>
-        <button class="button" type="submit">Commencons la discussion!</button>-->
-        <button type="button" class="button"><a href="./Pages/ThemeJoyeux.html" >Commencons la discussion!</a></button> </form>
-
+    </div>
 
 </body>
 

@@ -39,8 +39,8 @@
                 }
                 
                 .container2>img {
-                    width: 30%;
-                    height: 30%;
+                    width: 20%;
+                    height: 20%;
                 }
                 
                 ul li::first-letter {
@@ -49,7 +49,8 @@
                 
                 ul li:hover {
                     font-style: italic;
-                    color: lightcoral;
+                    color: purple;
+                    font-weight: bolder;
                 }
                 
                 .container3 {
@@ -57,13 +58,16 @@
                     justify-content: center;
                 }
                 
+                #select {
+                    height: 30px;
+                }
+                
                 .container4 {
                     width: 500px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    background-color: rgb(125, 114, 187);
-                    border-radius: 12px;
+                    background-image: url(../images/happy2.jpg);
                     border-style: ridge;
                     justify-content: center;
                     padding: 20px;
@@ -125,4 +129,10 @@
                 
                 option {
                     font-size: 15px;
+                }
+                
+                #formcontainerdiv {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
                 }
